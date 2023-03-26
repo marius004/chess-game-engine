@@ -31,3 +31,5 @@ std::ostream& operator<<(std::ostream& stream, const Piece& piece) {
 
     return stream;
 }
+
+Piece::~Piece() = default;

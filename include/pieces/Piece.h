@@ -22,6 +22,8 @@ public:
     bool isBlack() const;
 
     virtual std::vector<Move> getLegalMoves() = 0;
+    virtual ~Piece();
+
     friend std::ostream& operator<< (std::ostream& stream, const Piece& piece);
 };
 

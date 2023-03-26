@@ -3,7 +3,6 @@
 #include "include/pieces/Piece.h"
 #include "include/pieces/Rook.h"
 #include "include/board/OccupiedTile.h"
-#include "include/board/Tile.h"
 #include "include/Color.h"
 
 int main() {
