@@ -80,7 +80,7 @@ endfunction()
 ###############################################################################
 
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp include/pieces/Piece.h include/Color.h src/pieces/Piece.cpp include/Move.h src/Move.cpp include/pieces/Bishop.h include/pieces/King.h include/pieces/Knight.h include/pieces/Pawn.h include/pieces/Queen.h include/pieces/Rook.h src/pieces/Bishop.cpp src/pieces/King.cpp src/pieces/Knight.cpp src/pieces/Pawn.cpp src/pieces/Queen.cpp src/pieces/Rook.cpp include/board/Tile.h src/board/Tile.cpp include/board/EmptyTile.h include/board/OccupiedTile.h src/board/EmptyTile.cpp src/board/OccupiedTile.cpp)
 
 ###############################################################################
 

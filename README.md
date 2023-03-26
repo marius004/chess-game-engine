@@ -1,8 +1,13 @@
-# OOP Template
+# Chess Game Engine with AI 
+
+### Descriere 
+
+Un Chess Game Engine care in spate are implementat un AI care calculeaza 
+miscarile optime pentru o anumita configuratie de board
 
 ### Tema 0
 
-- [ ] Nume proiect (poate fi schimbat ulterior)
+- [x] Nume proiect (poate fi schimbat ulterior)
 - [ ] Scurtă descriere a temei alese, ce v-ați propus să implementați
 
 ## Tema 1
